@@ -37,7 +37,84 @@
 
     <main>
       <div class="flex items-center justify-center form-container">
-        <div class="checkout"></div>
+        <div class="checkout">
+          <div class="form-title form-section">
+            <h1>Checkout</h1>
+          </div>
+
+          <div class="form-section">
+            <div class="step flex items-center">
+              <div class="count">
+                <p>1</p>
+              </div>
+              <p class="title">Your Basic information</p>
+            </div>
+
+            <div class="">
+              <div class="info">
+                <div class="input-field flex flex-col">
+                  <label for="fname">First Name</label>
+                  <input type="text" name="fname" placeholder="Jane" />
+                </div>
+                <div class="input-field flex flex-col">
+                  <label for="lname">Last Name</label>
+                  <input type="text" name="lname" placeholder="Doe" />
+                </div>
+                <div class="input-field flex flex-col email">
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="janedoe@example.com"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="step flex items-center">
+              <div class="count">
+                <p>2</p>
+              </div>
+              <p class="title">Your Payment information</p>
+            </div>
+
+            <div class="">
+              <div class="card">
+                <div class="input-field flex flex-col">
+                  <label for="fname">Credit card</label>
+                </div>
+                <div class="flex card-info">
+                  <input
+                    type="text"
+                    class="exp"
+                    name="number"
+                    placeholder="Card Number"
+                  />
+                  <input
+                    type="text"
+                    class="exp"
+                    name="exp"
+                    placeholder="MM / YY"
+                  />
+                  <input type="text" class="cvc" name="cvc" placeholder="CVC" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section purchase">
+            <button class="btn submit-btn" type="button">Buy WP Pusher</button>
+            <p>
+              <b> Need any help? </b>
+              Don’t hesitate to
+              <a href=""> contact support! </a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Blue container -->
         <div class="plan">
           <div class="">
             <h2 class="plan-title">Freelancer</h2>
